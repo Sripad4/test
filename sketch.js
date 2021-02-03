@@ -56,8 +56,8 @@ function setup() {
   gameOver.scale = 0.5;
   restart.scale = 0.5;
 
-  gameOver.visible = true;
-  restart.visible = true;
+  gameOver.visible = false;
+  restart.visible = false;
   
   invisibleGround = createSprite(200,190,400,10);
   invisibleGround.visible = false;
